@@ -1,0 +1,47 @@
+.flex-container {
+  display: flex;
+  max-width: 1400px;
+  margin: 40px auto 0 auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin-bottom: 30px;
+  flex-basis: 22%;
+  box-sizing: border-box;
+  padding: 30px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.link {
+  background-color: red;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.description {
+  text-align: center;
+  font-size: 22px;
+  font-family: sans-serif;
+  flex: 1;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 19px;
+}
+
+.card:nth-child(1) {background-color: #c0dbe2}
+.card:nth-child(2) {background-color: #cdf1c3}
+.card:nth-child(3) {background-color: #ccb9da}
+.card:nth-child(4) {background-color: #c0dbe2}
+.card:nth-child(5) {background-color: #cdf1c3}
+.card:nth-child(6) {background-color: #ccb9da}
+.card:nth-child(7) {background-color: #c0dbe2}
+.card:nth-child(8) {background-color: #cdf1c3}
+
